@@ -1,0 +1,29 @@
+.writeup__container {
+  max-width: 95%;
+  margin: 10px auto;
+}
+
+.writeup__container h1 {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.writeup__container p {
+  font-weight: 50;
+  font-size: 1rem;
+}
+
+.writeup__container p a {
+  color: #f17424;
+}
+
+.writeup__donate__button {
+  margin-top: 20px;
+}
+
+.writeup__donate__button a {
+  background: #f17424;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 700;
+}

@@ -1,0 +1,50 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav > * {
+  margin: 0 20px;
+  padding: 8px 26px;
+  font-weight: 500;
+  color: #333;
+}
+
+.header__nav > *:hover {
+  border-bottom: 2px solid #f17424;
+}
+
+.logo a {
+  color: black;
+}
+.donate__btn {
+  background-color: #f17424;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.donate__btn:hover {
+  color: #f17424;
+  background-color: #fff;
+  border: 1px solid #f17424;
+}
+
+.menu__bar {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__nav {
+    display: none;
+  }
+
+  .menu__bar {
+    display: block;
+  }
+}

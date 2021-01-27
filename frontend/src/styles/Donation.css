@@ -1,0 +1,47 @@
+form {
+  width: 100%;
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="Number"] {
+  width: 100%;
+  padding: 12px 26px;
+  margin-top: 5px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group button {
+  padding: 10px 15px;
+  min-width: 30%;
+  cursor: pointer;
+  border: 1px solid #f17424;
+  font-weight: 500;
+  background: none;
+  color: #f17424;
+  display: flex;
+  align-items: center;
+}
+
+.form__group button > * {
+  margin-right: 5px;
+}
+
+.form__group button:hover {
+  background-color: #f17424;
+  color: #ffffff;
+}
+
+.form__group label {
+  font-weight: 650;
+}
+
+.warning {
+  color: red;
+  margin-bottom: 3px;
+  text-align: center;
+}
