@@ -5,7 +5,7 @@ This Is A Charity Website (DONATION) built for an NGO with the MERN stack which 
 -git clone
 
 #In The Root Directory
--npm install
+  -npm install
 
 -cd frontend
   npm install
